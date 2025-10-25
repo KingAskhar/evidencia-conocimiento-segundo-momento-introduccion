@@ -82,7 +82,49 @@ Curva de aprendizaje inicial: Requiere aprender las convenciones de nomenclatura
 * **4.3.** Muestra un ejemplo de código HTML y CSS para un componente de "tarjeta de producto" (`product-card`) utilizando la sintaxis BEM. El bloque debe tener elementos como un título, una imagen y un botón, y el botón debe tener un modificador para un estado primario (ej. `product-card__button--primary`).
 
 **[ESPACIO PARA TU RESPUESTA 4]**
+BEM (Block, Element, Modifier) es una metodología de nomenclatura CSS que organiza el código en tres componentes:
 
+Block: Un componente independiente y reutilizable (ej. menu, card).
+Element: Una parte de un bloque que no tiene sentido por sí sola (ej. menu__item, card__title).
+Modifier: Una variación de un bloque o elemento (ej. menu--vertical, card__button--primary).
+
+BEM soluciona principalmente el problema de colisiones de estilos y la escalabilidad del CSS. Al establecer una convención de nomenclatura clara y predecible, evita que los estilos de un componente afecten accidentalmente a otro, y hace que el código sea más mantenible al facilitar la identificación de las relaciones entre elementos y sus modificaciones.
+
+/* CSS */
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+}
+
+.product-card__image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.product-card__title {
+  font-size: 1.2rem;
+  margin: 12px 0;
+}
+
+.product-card__description {
+  color: #666;
+  margin-bottom: 16px;
+}
+
+.product-card__button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product-card__button--primary {
+  background-color: #007bff;
+  color: white;
+}
 ---
 
 ### Pregunta 5: Frameworks y CSS Puro - Conflictos y Convivencia
