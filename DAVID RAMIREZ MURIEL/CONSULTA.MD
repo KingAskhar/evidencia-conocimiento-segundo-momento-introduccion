@@ -52,7 +52,27 @@ Sobrecarga de código: Puede incluir estilos y funcionalidades que no se utiliza
 * **3.3.** Basado en tu investigación, menciona dos **ventajas** y dos **desventajas** claras de usar Tailwind CSS en un proyecto.
 
 **[ESPACIO PARA TU RESPUESTA 3]**
+Tailwind CSS adopta un enfoque "Utility-First" que consiste en proporcionar clases de bajo nivel que aplican estilos individuales directamente en el HTML. A diferencia de Bootstrap que ofrece componentes pre-diseñados, Tailwind ofrece clases como flex, pt-4, o text-blue-500 que permiten construir diseños personalizados combinando estas utilidades directamente en el marcado HTML, sin necesidad de escribir CSS personalizado.
+.flex - Aplica display: flex;
+.justify-center - Aplica justify-content: center;
+.text-center - Aplica text-align: center;
+.bg-blue-500 - Aplica background-color: #3b82f6;
+.text-white - Aplica color: #ffffff;
+.p-4 - Aplica padding: 1rem; (16px)
+.m-2 - Aplica margin: 0.5rem; (8px)
+.w-full - Aplica width: 100%;
+.rounded-lg - Aplica border-radius: 0.5rem;
+.shadow-md - Aplica box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 
+Ventajas:
+
+Alta personalización: Permite crear diseños completamente personalizados sin las limitaciones de los componentes predefinidos.
+Optimización automática: Su herramienta de compilación elimina automáticamente el CSS no utilizado, reduciendo el tamaño final del archivo.
+
+Desventajas:
+
+HTML "sucio": El marcado HTML puede volverse verboso y difícil de leer debido a la gran cantidad de clases aplicadas.
+Curva de aprendizaje inicial: Requiere aprender las convenciones de nomenclatura de las clases de utilidad, lo que puede ser confuso al principio.
 ---
 
 ### Pregunta 4: BEM - Organizando CSS Puro
