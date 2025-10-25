@@ -10,6 +10,9 @@
 **[ESPACIO PARA TU RESPUESTA 1]**
 Un framework de CSS es como un set de herramientas de carpintería pre-diseñadas. Así como un carpintero tiene herramientas especializadas (sierras, martillos, formones) ya fabricadas para construir muebles eficientemente, un framework de CSS proporciona herramientas pre-diseñadas (componentes, utilidades, sistema de grillas) que facilitan la construcción de interfaces web sin tener que crear cada elemento desde cero.
 
+Consistencia y estandarización: Los frameworks proporcionan un sistema coherente que asegura que todos los elementos de la interfaz mantengan una apariencia uniforme, evitando inconsistencias visuales que pueden ocurrir cuando cada desarrollador crea sus propios estilos.
+
+Ahorro de tiempo y esfuerzo: Al ofrecer componentes pre-diseñados y sistemas de grillas listos para usar, los frameworks eliminan la necesidad de escribir código CSS repetitivo, permitiendo a los desarrolladores centrarse en la funcionalidad y experiencia del usuario.
 ---
 
 ### Pregunta 2: Bootstrap CSS - El Ecosistema Basado en Componentes
@@ -19,8 +22,7 @@ Un framework de CSS es como un set de herramientas de carpintería pre-diseñada
 * **2.3.** Basado en tu investigación, menciona dos **ventajas** y dos **desventajas** claras de usar Bootstrap en un proyecto.
 
 **[ESPACIO PARA TU RESPUESTA 2]**
-Consistencia y estandarización: Los frameworks proporcionan un sistema coherente que asegura que todos los elementos de la interfaz mantengan una apariencia uniforme, evitando inconsistencias visuales que pueden ocurrir cuando cada desarrollador crea sus propios estilos.
-Ahorro de tiempo y esfuerzo: Al ofrecer componentes pre-diseñados y sistemas de grillas listos para usar, los frameworks eliminan la necesidad de escribir código CSS repetitivo, permitiendo a los desarrolladores centrarse en la funcionalidad y experiencia del usuario.
+
 ---
 
 ### Pregunta 3: Tailwind CSS - El Enfoque "Utility-First"
