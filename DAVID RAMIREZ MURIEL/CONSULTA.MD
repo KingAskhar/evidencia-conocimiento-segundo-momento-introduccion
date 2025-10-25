@@ -134,7 +134,18 @@ BEM soluciona principalmente el problema de colisiones de estilos y la escalabil
 * **5.3.** ¿Es técnicamente posible y/o recomendable usar Bootstrap, Tailwind CSS y una hoja de estilos propia en un mismo proyecto? Argumenta sobre los posibles conflictos (ej. reseteo de estilos, colisión de nombres de clases) y problemas de rendimiento que esto podría causar.
 
 **[ESPACIO PARA TU RESPUESTA 5]**
+Sí, es posible usar hojas de estilos personalizadas junto a un framework. Para que esto funcione correctamente, el CSS del framework debe cargarse primero y luego el CSS personalizado. Esto permite que los estilos personalizados puedan sobreescribir los del framework mediante una mayor especificidad o porque se cargan después. En el HTML, el orden sería:
+<link rel="stylesheet" href="framework.css">
+<link rel="stylesheet" href="estilos-personalizados.css">
 
+La especificidad de CSS es un algoritmo que determina qué regla de estilo se aplica cuando múltiples reglas podrían afectar al mismo elemento. Se calcula basándose en los selectores: los ID tienen mayor especificidad que las clases, y las clases mayor que los elementos. Por ejemplo, una regla con ID como #mi-boton-especial es más específica y prevalecerá sobre una regla con clase como .btn-primary, incluso si esta última se carga después.
+
+Técnicamente es posible usar Bootstrap, Tailwind y CSS propio en un mismo proyecto, pero generalmente no es recomendable porque:
+
+Conflictos de estilos: Ambos frameworks tienen sus propios sistemas de reseteo y estilos base que pueden entrar en conflicto.
+Colisión de nombres: Aunque es menos probable con Tailwind, podrían existir clases con nombres similares pero comportamientos diferentes.
+Problemas de rendimiento: Incluir múltiples frameworks aumenta significativamente el tamaño del CSS cargado, afectando la velocidad de carga del sitio.
+Complejidad innecesaria: Mantener tres sistemas de estilos diferentes hace el desarrollo más confuso y difícil de mantener.
 ---
 
 ### Pregunta 6: Comparación y Veredicto Final
