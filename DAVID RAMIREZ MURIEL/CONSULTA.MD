@@ -22,7 +22,18 @@ Ahorro de tiempo y esfuerzo: Al ofrecer componentes pre-diseñados y sistemas de
 * **2.3.** Basado en tu investigación, menciona dos **ventajas** y dos **desventajas** claras de usar Bootstrap en un proyecto.
 
 **[ESPACIO PARA TU RESPUESTA 2]**
+Bootstrap se basa en una filosofía de componentes pre-diseñados donde ofrece un conjunto completo de elementos UI ya construidos (botones, formularios, navegación, modales, etc.) que pueden ser combinados para crear interfaces complejas rápidamente. Su enfoque es "mobile-first" y proporciona un sistema de grillas responsivo que facilita la creación de diseños adaptables a diferentes tamaños de pantalla.
 
+.container - Centra y ajusta el ancho del contenido con márgenes automáticos.
+.row - Contenedor para columnas dentro del sistema de grillas.
+.col-md-4 - Crea una columna que ocupa 4 de 12 espacios en dispositivos medianos.
+.btn - Estilo base para botones.
+.btn-primary - Aplica el color primario del tema a un botón.
+.navbar - Crea una barra de navegación.
+.card - Contenedor flexible para contenido con estilo de tarjeta.
+.form-control - Estilo base para elementos de formulario.
+.d-flex - Aplica display: flex a un elemento.
+.mt-3 - Aplica un margen superior (margin-top) de tamaño 3.
 ---
 
 ### Pregunta 3: Tailwind CSS - El Enfoque "Utility-First"
