@@ -34,6 +34,15 @@ Bootstrap se basa en una filosofía de componentes pre-diseñados donde ofrece u
 .form-control - Estilo base para elementos de formulario.
 .d-flex - Aplica display: flex a un elemento.
 .mt-3 - Aplica un margen superior (margin-top) de tamaño 3.
+Ventajas:
+
+Curva de aprendizaje baja: Su documentación es extensa y clara, facilitando el inicio para desarrolladores novatos.
+Comunidad activa: Cuenta con una gran comunidad que proporciona soluciones, plugins y soporte constante.
+
+Desventajas:
+
+Diseño genérico: Sitios web construidos con Bootstrap tienden a parecerse entre sí si no se personalizan adecuadamente.
+Sobrecarga de código: Puede incluir estilos y funcionalidades que no se utilizan, aumentando el tamaño del archivo CSS.
 ---
 
 ### Pregunta 3: Tailwind CSS - El Enfoque "Utility-First"
