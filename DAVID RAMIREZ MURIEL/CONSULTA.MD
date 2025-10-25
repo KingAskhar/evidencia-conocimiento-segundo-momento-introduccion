@@ -154,3 +154,35 @@ Complejidad innecesaria: Mantener tres sistemas de estilos diferentes hace el de
 * **6.2.** ¿En qué tipo de proyecto recomendarías usar **Bootstrap**? ¿En cuál **Tailwind CSS**? ¿Y en cuál optarías por **CSS Puro + BEM**? Justifica tu respuesta basándote en las fortalezas y debilidades de cada enfoque.
 
 **[ESPACIO PARA TU RESPUESTA 6]**
+Bootstrap
+Curva de Aprendizaje = Baja
+Nivel de Personalización = Alto
+"Limpieza" del HTML	= Limpio
+Velocidad de Prototipado = Muy Rápida
+
+Tailwind CSS
+Curva de Aprendizaje = Media	
+Nivel de Personalización = Alto
+"Limpieza" del HTML = Verboso
+Velocidad de Prototipado = Rápida
+
+CSS Puro + BEM
+Curva de Aprendizaje = Alta
+Nivel de Personalización = Muy Alto
+"Limpieza" del HTML = Limpio
+Velocidad de Prototipado = Lenta
+
+Bootstrap es ideal para:
+Proyectos con plazos ajustados donde se necesita rapidez en el desarrollo.
+Prototipos y MVPs (Productos Mínimos Viables) que requieren una interfaz funcional rápidamente.
+Proyectos donde el equipo tiene experiencia limitada en CSS y diseño frontend.
+
+Tailwind CSS es recomendable para:
+Proyectos que requieren alta personalización visual pero sin partir desde cero.
+Aplicaciones web complejas donde se necesita mantener consistencia visual pero con flexibilidad.
+Equipos que prefieren trabajar directamente en el HTML sin cambiar constantemente entre archivos CSS.
+
+CSS Puro + BEM es la mejor opción para:
+Proyectos con requisitos de diseño muy específicos que no pueden lograrse con frameworks.
+Sitios web donde el rendimiento es crítico y se necesita minimizar al máximo el CSS.
+Proyectos a largo plazo donde la mantenibilidad y escalabilidad del código son prioridades absolutas.
